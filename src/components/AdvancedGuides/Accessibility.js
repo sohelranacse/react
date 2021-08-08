@@ -9,7 +9,24 @@ export default function Accessibility() {
             </Helmet>
 
             <h2 className="mb-4">Accessibility</h2>
-            <p>HTML form elements work a bit differently from other DOM elements in React, because form elements naturally keep some internal state.</p>
+            <ul>
+                <li>Standards and Guidelines</li>
+                <li>Semantic HTML</li>
+                <li>Accessible Forms</li>
+                <li>
+                    Focus Control
+                    <ul>
+                        <li>Keyboard focus and focus outline</li>
+                        <li>Mechanisms to skip to desired content</li>
+                        <li>Programmatically managing focus</li>
+                    </ul>
+                </li>
+                <li>Mouse and pointer events</li>
+                <li>More Complex Widgets</li>
+                <li>Other Points for Consideration</li>
+                <li>Development and Testing Tools</li>
+            </ul>
+            
         </div>
     )
 }
